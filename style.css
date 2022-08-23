@@ -1,0 +1,84 @@
+body {
+    background: rgba(255, 166, 158, 0.53) !important;
+}
+
+#title {
+    width: 280px;
+    height: 81px;
+
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #5E6472;
+
+    float: auto;
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#inputText {
+    width: 1012px;
+    height: 75px;
+    background: #E6FAFF;
+    border-radius: 25px;
+    border:0px;
+}
+
+/* #inputText * {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    vertical-align: middle;
+
+    color: #5E6472;
+} */
+
+#plusBtn {
+    margin-left: 36px;
+    fill: #5E6472;
+}
+
+#listSection {
+    margin-top: 5rem;
+    margin-bottom: 113px;
+    gap: 29px;
+}
+
+.item {
+    width: 1098px;
+    height: 81px;
+    background: #FAF3DD;
+    border-radius: 25px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    vertical-align: middle;
+
+    color: #5E6472;
+
+    padding-left: 37px;
+    padding-right: 37px;
+}
+
+.bi-x-lg {
+    fill: #5E6472;
+}
+
+body::-webkit-scrollbar {
+    width: 20px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #5E6472;
+    border-radius: 20px;
+}
+body::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 20px;
+}
